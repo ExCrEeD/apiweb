@@ -27,7 +27,6 @@ c:\users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMai
 c:\users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\bin\System.Web.WebPages.xml
 c:\users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\bin\System.Web.WebPages.Deployment.xml
 c:\users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\bin\System.Web.WebPages.Razor.xml
-c:\users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\obj\Debug\WebApiMails.csprojResolveAssemblyReference.cache
 c:\users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\obj\Debug\WebApiMails.dll
 c:\users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\obj\Debug\WebApiMails.pdb
 C:\Users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\bin\EntityFramework.SqlServer.dll
@@ -37,3 +36,5 @@ C:\Users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMai
 C:\Users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\bin\System.Web.Cors.dll
 C:\Users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\bin\System.Web.Http.Cors.dll
 C:\Users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\bin\System.Web.Http.Cors.xml
+C:\Users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\obj\Debug\WebApiMails.Migrations.migration2.resources
+C:\Users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\obj\Debug\WebApiMails.csprojResolveAssemblyReference.cache

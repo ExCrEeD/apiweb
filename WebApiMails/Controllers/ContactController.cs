@@ -36,8 +36,14 @@ namespace WebApiMails.Controllers
         }
 
         // PUT api/contact/5
-        public void Put(int id, [FromBody]string value)
+        public void Put(int id, [FromBody]Contacto contact)
         {
+            var tempcontact = db.Contactos.Find(id);
+            if (tempcontact != null)
+            {
+                db.Entry(tempcontact).CurrentValues.SetValues(contact);
+                db.SaveChanges();
+            }
         }
 
         // DELETE api/contact/5

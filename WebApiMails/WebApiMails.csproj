@@ -150,6 +150,10 @@
     <Compile Include="Migrations\201901312108412_migracionInicial.Designer.cs">
       <DependentUpon>201901312108412_migracionInicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902042057151_migration2.cs" />
+    <Compile Include="Migrations\201902042057151_migration2.Designer.cs">
+      <DependentUpon>201902042057151_migration2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Contacto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -266,6 +270,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201901312108412_migracionInicial.resx">
       <DependentUpon>201901312108412_migracionInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902042057151_migration2.resx">
+      <DependentUpon>201902042057151_migration2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

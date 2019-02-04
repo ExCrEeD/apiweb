@@ -13,6 +13,6 @@ namespace WebApiMails.Models
         public int Id { get; set; }
         public String Nombre { get; set; }
         public String Correo { get; set; }
-        public Boolean Estado { get; set; }
+        public String Estado { get; set; }
     }
 }
