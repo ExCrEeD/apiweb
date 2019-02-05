@@ -18,6 +18,7 @@ namespace WebApiMails.Contexto
         }
 
         public DbSet<Contacto> Contactos { get; set; }
+        public DbSet<Correo> Correos { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

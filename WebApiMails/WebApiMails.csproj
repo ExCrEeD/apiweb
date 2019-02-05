@@ -140,6 +140,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Contexto\DataStore.cs" />
     <Compile Include="Controllers\ContactController.cs" />
+    <Compile Include="Controllers\CorreoController.cs" />
     <Compile Include="Controllers\DemoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -154,7 +155,12 @@
     <Compile Include="Migrations\201902042057151_migration2.Designer.cs">
       <DependentUpon>201902042057151_migration2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902051522486_correo.cs" />
+    <Compile Include="Migrations\201902051522486_correo.Designer.cs">
+      <DependentUpon>201902051522486_correo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Correo.cs" />
     <Compile Include="Models\Contacto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -274,6 +280,9 @@
     <EmbeddedResource Include="Migrations\201902042057151_migration2.resx">
       <DependentUpon>201902042057151_migration2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902051522486_correo.resx">
+      <DependentUpon>201902051522486_correo.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -291,7 +300,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>54863</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:52693/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

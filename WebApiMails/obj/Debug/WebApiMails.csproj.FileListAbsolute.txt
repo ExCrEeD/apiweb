@@ -37,4 +37,5 @@ C:\Users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMai
 C:\Users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\bin\System.Web.Http.Cors.dll
 C:\Users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\bin\System.Web.Http.Cors.xml
 C:\Users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\obj\Debug\WebApiMails.Migrations.migration2.resources
+C:\Users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\obj\Debug\WebApiMails.Migrations.correo.resources
 C:\Users\daniel.melo\documents\visual studio 2012\Projects\WebApiMails\WebApiMails\obj\Debug\WebApiMails.csprojResolveAssemblyReference.cache
