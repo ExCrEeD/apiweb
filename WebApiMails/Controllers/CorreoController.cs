@@ -36,19 +36,30 @@ namespace WebApiMails.Controllers
         }
 
         // PUT api/correo/5
-        public void Put(int id, [FromBody]string value)
+        public void Put(int id, [FromBody]Correo mail)
         {
-            var tempcontact = db.Contactos.Find(id);
-            if (tempcontact != null)
+            var tempMail = db.Correos.Find(id);
+            if (tempMail != null)
             {
-                db.Entry(tempcontact).CurrentValues.SetValues(contact);
+                db.Entry(tempMail).CurrentValues.SetValues(mail);
                 db.SaveChanges();
             }
         }
 
         // DELETE api/correo/5
-        public void Delete(int id)
+        public String Delete(int id)
         {
+            try
+            {
+                Correo tempcontacto = db.Correos.Find(id);
+                db.Correos.Remove(tempcontacto);
+                db.SaveChanges();
+                return "Registro Borrado";
+            }
+            catch
+            {
+                return "No fue posible borrar el registro";
+            }
         }
     }
 }
