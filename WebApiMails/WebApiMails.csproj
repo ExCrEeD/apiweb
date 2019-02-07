@@ -52,6 +52,10 @@
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="NuGet.Versioning, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\NuGet.Versioning.4.0.0-rc-2048\lib\net45\NuGet.Versioning.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -143,25 +147,43 @@
     <Compile Include="Controllers\CorreoController.cs" />
     <Compile Include="Controllers\DemoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\InterfaceStrategyFile.cs" />
+    <Compile Include="Controllers\JsonStrategy.cs" />
+    <Compile Include="Controllers\pruebaController.cs" />
+    <Compile Include="Controllers\SendMailsController.cs" />
+    <Compile Include="Controllers\StrategyFile.cs" />
+    <Compile Include="Controllers\XmlStrategy.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201901312108412_migracionInicial.cs" />
-    <Compile Include="Migrations\201901312108412_migracionInicial.Designer.cs">
+    <Compile Include="Images\Migrations\201901312108412_migracionInicial.cs" />
+    <Compile Include="Images\Migrations\201901312108412_migracionInicial.Designer.cs">
       <DependentUpon>201901312108412_migracionInicial.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201902042057151_migration2.cs" />
-    <Compile Include="Migrations\201902042057151_migration2.Designer.cs">
+    <Compile Include="Images\Migrations\201902042057151_migration2.cs" />
+    <Compile Include="Images\Migrations\201902042057151_migration2.Designer.cs">
       <DependentUpon>201902042057151_migration2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201902051522486_correo.cs" />
-    <Compile Include="Migrations\201902051522486_correo.Designer.cs">
+    <Compile Include="Images\Migrations\201902051522486_correo.cs" />
+    <Compile Include="Images\Migrations\201902051522486_correo.Designer.cs">
       <DependentUpon>201902051522486_correo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Images\Migrations\201902061241220_emailHistory.cs" />
+    <Compile Include="Images\Migrations\201902061241220_emailHistory.Designer.cs">
+      <DependentUpon>201902061241220_emailHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Images\Migrations\201902061255400_alterEmailsHistory.cs" />
+    <Compile Include="Images\Migrations\201902061255400_alterEmailsHistory.Designer.cs">
+      <DependentUpon>201902061255400_alterEmailsHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Images\Migrations\Configuration.cs" />
+    <Compile Include="Migrations\201902071609587_alterEmailsHistory1.cs" />
+    <Compile Include="Migrations\201902071609587_alterEmailsHistory1.Designer.cs">
+      <DependentUpon>201902071609587_alterEmailsHistory1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Correo.cs" />
     <Compile Include="Models\Contacto.cs" />
+    <Compile Include="Models\EmailsHistorial.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -274,14 +296,23 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201901312108412_migracionInicial.resx">
+    <EmbeddedResource Include="Images\Migrations\201901312108412_migracionInicial.resx">
       <DependentUpon>201901312108412_migracionInicial.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201902042057151_migration2.resx">
+    <EmbeddedResource Include="Images\Migrations\201902042057151_migration2.resx">
       <DependentUpon>201902042057151_migration2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201902051522486_correo.resx">
+    <EmbeddedResource Include="Images\Migrations\201902051522486_correo.resx">
       <DependentUpon>201902051522486_correo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Migrations\201902061241220_emailHistory.resx">
+      <DependentUpon>201902061241220_emailHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\Migrations\201902061255400_alterEmailsHistory.resx">
+      <DependentUpon>201902061255400_alterEmailsHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902071609587_alterEmailsHistory1.resx">
+      <DependentUpon>201902071609587_alterEmailsHistory1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
