@@ -72,6 +72,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Http, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.7\lib\net45\System.Web.Http.dll</HintPath>
       <Private>True</Private>
@@ -180,6 +181,10 @@
     <Compile Include="Migrations\201902071609587_alterEmailsHistory1.cs" />
     <Compile Include="Migrations\201902071609587_alterEmailsHistory1.Designer.cs">
       <DependentUpon>201902071609587_alterEmailsHistory1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902081252000_alter mailshistory.cs" />
+    <Compile Include="Migrations\201902081252000_alter mailshistory.Designer.cs">
+      <DependentUpon>201902081252000_alter mailshistory.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Correo.cs" />
     <Compile Include="Models\Contacto.cs" />
@@ -313,6 +318,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902071609587_alterEmailsHistory1.resx">
       <DependentUpon>201902071609587_alterEmailsHistory1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902081252000_alter mailshistory.resx">
+      <DependentUpon>201902081252000_alter mailshistory.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -85,3 +85,4 @@ C:\Users\daniel.melo\Documents\Capacitacion\C#\apiweb\WebApiMails\obj\Debug\WebA
 C:\Users\daniel.melo\Documents\Capacitacion\C#\apiweb\WebApiMails\obj\Debug\WebApiMails.Migrations.alterEmailsHistory.resources
 C:\Users\daniel.melo\Documents\Capacitacion\C#\apiweb\WebApiMails\obj\Debug\WebApiMails.Migrations.alterEmailsHistory1.resources
 C:\Users\daniel.melo\Documents\Capacitacion\C#\apiweb\WebApiMails\obj\Debug\WebApiMails.csprojResolveAssemblyReference.cache
+C:\Users\daniel.melo\Documents\Capacitacion\C#\apiweb\WebApiMails\obj\Debug\WebApiMails.Migrations.altermailshistory.resources

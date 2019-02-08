@@ -19,5 +19,6 @@ namespace WebApiMails.Models
         public DateTime Fecha { get; set; }
         public String Formato { get; set; }
         public String Estado { get; set; }
+        public String RutaArchivo { get; set; }
     }
 }
